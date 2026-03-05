@@ -26,7 +26,7 @@ package com.PallindromeCheckerApp;
 
 import java.util.LinkedList;
 
-public class UseCase8PallindromeCheckerApp {
+public class UseCaseEightPallindromeCheckerApp {
 
     public static void main(String[] args) {
         String input = "level";
