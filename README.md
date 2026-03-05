@@ -73,5 +73,3 @@ Benchmarks all algorithms using the same input string and `System.nanoTime()`:
 8. Recursion  
 
 ---
-
-## 🗂 Project Structure (Suggested)
