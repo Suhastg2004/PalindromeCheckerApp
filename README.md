@@ -45,7 +45,19 @@ cd PalindromeCheckerApp
 
 ### Build and Run
 
-Use your Java compiler/runtime workflow (for example, `javac` and `java`) based on how your source files are organized in this repository.
+If your Java files are under a `src` folder and the entry point is `Main.java`, you can use:
+
+```bash
+javac src/Main.java
+java -cp src Main
+```
+
+If you use packages, compile all files and run with the fully qualified class name:
+
+```bash
+javac -d out src/**/*.java
+java -cp out com.example.Main
+```
 
 ## Learning Focus
 
