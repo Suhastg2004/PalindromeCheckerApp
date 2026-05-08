@@ -59,7 +59,7 @@ javac -d out src/**/*.java
 java -cp out com.example.Main
 ```
 
-> Note: `src/**/*.java` is a bash/zsh-style glob pattern. Shells like Windows Command Prompt and Windows PowerShell 5.1 may not support it. In that case, list files explicitly (e.g., `javac -d out src/Main.java src/utils/Helper.java`).
+> Note: `src/**/*.java` is a bash/zsh-style glob pattern. Modern PowerShell 7+ generally supports it, but Windows Command Prompt and legacy Windows PowerShell 5.1 may not. In that case, list files explicitly (e.g., `javac -d out src/Main.java src/utils/Helper.java`).
 
 ## Learning Focus
 
