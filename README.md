@@ -59,6 +59,8 @@ javac -d out src/**/*.java
 java -cp out com.example.Main
 ```
 
+> Note: `src/**/*.java` is a bash/zsh-style glob pattern. On shells that do not support it, list files explicitly (for example, `javac -d out src/com/example/*.java`).
+
 ## Learning Focus
 
 This project is intentionally structured as progressive use cases so each step builds on the previous one and introduces one new concept at a time.
