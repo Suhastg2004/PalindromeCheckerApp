@@ -1,75 +1,60 @@
 # Palindrome Checker App
 
-A Java console-based application that demonstrates multiple methods for checking whether a string is a palindrome. The project is structured into Use Cases (UC1–UC13), each introducing a new concept, data structure, or algorithm.
+A Java console-based learning project that demonstrates multiple ways to check whether a string is a palindrome.
 
----
+## Project Objective
 
-## 📌 Project Objective
+This repository is designed to help learners practice:
 
-The goal of the Palindrome Checker App is to help learners understand:
+- Core Java fundamentals
+- Loops, conditionals, and recursion
+- Data structures like arrays, stacks, queues, deques, and linked lists
+- Object-oriented design
+- Strategy Pattern
+- Basic performance benchmarking
 
-- Java fundamentals  
-- Loops, conditionals, recursion  
-- Arrays, stacks, queues, deques, linked lists  
-- Object-oriented principles  
-- Strategy Pattern  
-- Performance benchmarking  
-- Clean, modular Java code  
+## Use Cases (UC1–UC13)
 
-Each use case is a small, focused feature that builds toward a complete learning project.
+1. **UC1 – Welcome Message**: Display app name/version and welcome text.
+2. **UC2 – Hardcoded Palindrome Check**: Check a fixed string (e.g., `madam`).
+3. **UC3 – Reverse String Method**: Reverse and compare with original.
+4. **UC4 – Two-Pointer Char Array**: Compare chars from both ends.
+5. **UC5 – Stack-Based Check**: Use `Stack` push/pop operations.
+6. **UC6 – Queue + Stack**: Compare dequeue vs pop behavior.
+7. **UC7 – Deque-Based Check**: Compare front/back efficiently using `ArrayDeque`.
+8. **UC8 – LinkedList-Based Check**: Compare symmetric positions in `LinkedList`.
+9. **UC9 – Recursive Check**: Compare outer chars recursively.
+10. **UC10 – Normalized Input Check**: Ignore spaces and case.
+11. **UC11 – OOP Service Class**: Encapsulate logic in a `PalindromeChecker` class.
+12. **UC12 – Strategy Pattern**: Switch algorithms via strategy implementations.
+13. **UC13 – Performance Comparison**: Benchmark approaches with `System.nanoTime()`.
 
----
+## Getting Started
 
-## 📚 Use Cases Overview
+### Prerequisites
 
-### **UC1 – Welcome Message**
-Displays application name, version, and welcome text.
+- Java 17+ (or your course-required Java version)
+- A terminal/command prompt
 
-### **UC2 – Hardcoded Palindrome Check**
-Checks a fixed string such as `"madam"` using simple comparison.
+### Clone Repository
 
-### **UC3 – Palindrome Using Reverse String**
-Reverses the string using a loop and compares with the original.
+```bash
+git clone https://github.com/Suhastg2004/PalindromeCheckerApp.git
+cd PalindromeCheckerApp
+```
 
-### **UC4 – Character Array Two-Pointer**
-Uses a `char[]` and compares characters from both ends.
+### Build and Run
 
-### **UC5 – Stack-Based Palindrome**
-Uses Java’s built-in `Stack` to push/pop characters.
+Use your Java compiler/runtime workflow (for example, `javac` and `java`) based on how your source files are organized in this repository.
 
-### **UC6 – Queue + Stack**
-Uses both `Queue` (`FIFO`) and `Stack` (`LIFO`) to compare dequeue vs pop.
+## Learning Focus
 
-### **UC7 – Deque-Based Palindrome**
-Uses `ArrayDeque` to compare front and end characters efficiently.
+This project is intentionally structured as progressive use cases so each step builds on the previous one and introduces one new concept at a time.
 
-### **UC8 – LinkedList-Based Palindrome**
-Uses Java’s built-in `LinkedList` to compare elements at symmetric positions.
+## Contributing
 
-### **UC9 – Recursive Palindrome**
-Checks palindrome using a recursive function that compares the outer characters.
+Contributions are welcome. Feel free to open an issue or pull request to improve examples, add tests, or enhance documentation.
 
-### **UC10 – Case-Insensitive & Space-Ignored Palindrome**
-Normalizes the input by removing spaces and converting to lower case.
+## License
 
-### **UC11 – Object-Oriented Palindrome Service**
-Implements a `PalindromeChecker` class with a public `checkPalindrome()` method.
-
-### **UC12 – Strategy Pattern for Palindrome Algorithms**
-Implements:
-- `PalindromeStrategy` interface  
-- `StackStrategy` and `DequeStrategy`  
-- `PalindromeContext` to switch algorithms dynamically  
-
-### **UC13 – Performance Comparison**
-Benchmarks all algorithms using the same input string and `System.nanoTime()`:
-1. Two-pointer  
-2. Reverse string  
-3. Char array  
-4. Stack  
-5. Queue + Stack  
-6. Deque  
-7. LinkedList  
-8. Recursion  
-
----
+Add your preferred license (for example, MIT) in a `LICENSE` file if not already present.
